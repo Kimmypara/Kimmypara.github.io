@@ -342,6 +342,23 @@ ul, ol, .address {
   display: none;
 }
 
+
+#read-more-2:checked ~ .content{
+  display: block;
+}
+
+#read-more-2:checked ~ label{
+  display: none;
+}
+
+#read-more-3:checked ~ .content{
+  display: block;
+}
+
+#read-more-3:checked ~ label{
+  display: none;
+}
+
 .content{
   display: none;
 }
